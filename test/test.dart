@@ -1,8 +1,6 @@
 import 'package:test/test.dart';
 import 'package:txtpack/txtpack.dart';
 
-import 'utils.dart';
-
 void main() {
   test('encodeToString', () {
     List<Map<String, String>> values = [
@@ -29,5 +27,4 @@ void main() {
           {"5": "6"}
         ]));
   });
-
 }
